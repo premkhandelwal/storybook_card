@@ -2,9 +2,10 @@ import React from 'react'
 import './card.css'
 
 type Member = {
-  name: string
-  imgUrl: string
-  noOfReads: number
+  firstName: string
+  lastName: string
+  imageURL: string
+  titlesRead: number
 }
 
 interface CardProps {
@@ -18,17 +19,17 @@ export const Card = ({ label, members, ...props }: CardProps) => {
       {members.map((member, index) => (
         // <li key={member.name}>{member.name}</li>
         <div  key={index} className="card">
-          <div className="container">
-            <img src={member.imgUrl} alt="Avatar"></img>
-            <div style={{ display: 'inline-block', marginLeft: '4px' }}>
+          {/* <div className="container"> */}
+            <img src={member.imageURL} alt="Avatar"></img>
+            <div style={{verticalAlign: "top", display: 'inline-block', marginLeft: '4px', marginTop: "2px", height: "100%" }}>
               <h4>
-                <b>{member.name}</b>
+                <b>{member.firstName + ' ' + member.lastName}</b>
               </h4>
               <h5>
-                {member.noOfReads} books read
+                {member.titlesRead} books read
               </h5>
             </div>
-          </div>
+          
         </div>
       ))}
     </ul>

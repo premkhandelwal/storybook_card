@@ -22,29 +22,34 @@ Small.args = {
   label: 'Card',
   members: [
     {
-      "name": "Prem",
-      "noOfReads": 4,
-      "imgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      "firstName": "Prem",
+      "lastName": "Prem",
+      "titlesRead": 4,
+      "imageURL": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
     },
     {
-      "name": "Karan",
-      "noOfReads": 4,
-      "imgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      "firstName": "Karan",
+      "lastName": "s",
+      "titlesRead": 4,
+      "imageURL": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
     },
     {
-      "name": "Arjun",
-      "noOfReads": 4,
-      "imgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      "firstName": "Arjun",
+      "lastName": "Arjun",
+      "titlesRead": 4,
+      "imageURL": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
     },
     {
-      "name": "Arjun",
-      "noOfReads": 4,
-      "imgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      "firstName": "Arjun",
+      "lastName": "Arjun",
+      "titlesRead": 4,
+      "imageURL": "https://cdn.pixabay.com/photo/2015/03/04/22/35/avatar-659652__340.png"
     },
     {
-      "name": "Meesha",
-      "noOfReads": 4,
-      "imgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      "firstName": "Meesha",
+      "lastName": "Meesha",
+      "titlesRead": 4,
+      "imageURL": "https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg"
     },
   ]
 };

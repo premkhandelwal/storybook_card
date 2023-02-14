@@ -1,9 +1,10 @@
 /// <reference types="react" />
 import './card.css';
 declare type Member = {
-    name: string;
-    imgUrl: string;
-    noOfReads: number;
+    firstName: string;
+    lastName: string;
+    imageURL: string;
+    titlesRead: number;
 };
 interface CardProps {
     label: string;
